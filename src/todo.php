@@ -35,24 +35,24 @@ include 'new.php';
 
 
             <ul id="incomplete-tasks">
-                <li><input type="checkbox" name="todo1"><label>Pay Bills</label><button class="edit">Edit</button><button class="delete">Delete</button></li>
-                <div id="div1">
+                
+               
                 <?php
                 display();
                 
                 ?>
-            </div>
-                <li><input type="checkbox"><label>Go Shopping</label><button class="edit">Edit</button><button class="delete">Delete</button></li>
+            
+                
             </ul>
 
 
-            <div id="div2">
-            <h3>Completed</h3>
-            <ul id="completed-tasks">
-                <li><input type="checkbox" checked><label>See the Doctor</label><input type="text"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+           <div class="div2">
+            
+            
                 
+    
                 <?php
-                include 'new.php';
+              
                 displayComplete();
                 
                 ?>

@@ -51,6 +51,8 @@ $i=0;
 
 function displayComplete()
 {
+
+      
 echo "<ul>";
 $i=0;
 
